@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Телебачення</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про телебачення</a>
+        <a href="contact.html">Контакти</a>
+    </nav>
+    <div class="container">
+        <h1>Ласкаво просимо на сайт про телебачення!</h1>
+        <p>Телебачення - це невід’ємна частина сучасного світу. Воно інформує, розважає і навчає.</p>
+        <h2 id="types">Типи телебачення</h2>
+        <ul>
+            <li>Кабельне</li>
+            <li>Супутникове</li>
+            <li>Цифрове</li>
+        </ul>
+        <h2>Популярні телеканали</h2>
+        <table>
+            <tr>
+                <th>Канал</th>
+                <th>Жанр</th>
+                <th>Країна</th>
+            </tr>
+            <tr>
+                <td rowspan="2"><a href="https://suspilne.media/uzhhorod/">Суспільне Ужгород</td></a>
+                <td>Новини</td>
+                <td>Україна</td>
+            </tr>
+            <tr>
+                <td>Документалістика</td>
+                <td>Україна</td>
+            </tr>
+        </table>
+		<center><h2>Канал телебачення</h2></center>
+        <a href="https://www.youtube.com/@SuspilneUzhhorod"><img src="channels_banner.jpg" alt="Студія телебачення" width="500"></a>
+        <h2>Відео</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+		<h2>Відео про телебачення</h2>
+        <iframe width="560" height="315" src="video.mp4" allowfullscreen></iframe>
+        <center><h2>Зображення студії телебачення</h2></center>
+        <img src="studio.jpg" alt="Студія телебачення" width="600">
+        <center><h2>Форма зворотного зв'язку</h2></center>
+        <form>
+            <label>Ім'я: <input type="text" name="name"></label>
+            <label>Email: <input type="email" name="email"></label>
+            <label>Пароль: <input type="password" name="password"></label>
+            <label>Телефон: <input type="tel" name="phone"></label>
+            <label>Дата народження: <input type="date" name="birthdate"></label>
+            <label>Оберіть колір: <input type="color" name="color"></label>
+            <label>Стать:</label>
+            <input type="radio" name="gender" value="male"> Чоловік
+            <input type="radio" name="gender" value="female"> Жінка<br>
+            <label>Підписка на розсилку:</label>
+            <input type="checkbox" name="subscribe"> Підписатися<br>
+            <label>Улюблений телеканал:</label>
+            <select name="channel">
+				<option>Перший</option>
+                <option>Суспільне Ужгород</option>
+                <option>Суспільне Київ</option>
+                <option>Суспільне Львів</option>
+            </select><br>
+            <label>Завантажити файл: <input type="file" name="file"></label><br>
+            <button type="submit">Надіслати</button>
+            <button type="reset">Очистити</button>
+        </form>
+    </div>
+</body>
+</html>
